@@ -1,0 +1,7 @@
+requirements:
+- Geolocalization
+- Phone number
+
+
+Party Finder
+any user can publish a 

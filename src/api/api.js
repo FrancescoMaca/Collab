@@ -1,7 +1,16 @@
+// contains front end related things
 const http = require('http');
+
+// contains the express api, used to create sites :(
 const express = require("express");
-const cors = require("cors");
+
+// browsers use this to to protect from cross site cross site request forgery (csrf)
+const cors = require("cors"); // some protection for api // 
+
+// methods that are called between the api calls and the express framework
 const middleware = require("../util/middleware");
+
+// Seerver configuration file
 const config = require("../../config.json")
 
 exports.API = class {
@@ -33,7 +42,7 @@ exports.API = class {
     };
 
     setRoutes () {
-        const route = require("./routes");
+        const route = require("./routes/routes");
 
         this.app.use("/api", route);
     };

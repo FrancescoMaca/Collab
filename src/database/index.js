@@ -2,6 +2,9 @@ const mongoose = require("mongoose");
 const config = require("../../config.json")
 
 exports.Database = class {
+    constructor(){
+        this.connect = connect()
+    }
     connect(){
         this.mongoose.connection.once("open", () => {
             console.info("Mongodb is now connected");

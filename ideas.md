@@ -3,18 +3,23 @@ The user can tell their friends and all the network that they're throwing a part
 notify all their friends that at time and date there will be their party. This option can be modified in the settings  
 you can notify only close friends, all friends or everyone in a 10 mile radious.  
 
-## Account  
-Infos:  
-   
+Guest list: persone che vuoi avere alla festa / ci saranno  
+Notification:  
+Type of party:  
+Dress code:  
+Age range:  
+
+# Account  
+## Infos:  
   - Geolocalization (City, State) [must-have] 
   - Phone number [optional] 
   - Nickname  
 
-Settings:  
+## Settings:  
 - Notify only close friends/all friends/none/selected  
 
-Tools used:  
-- mongodb  
-
-
+# Tools used:  
+- MongoDB  
+- Express
+- NodeJS
 

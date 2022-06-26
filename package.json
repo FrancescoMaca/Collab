@@ -1,13 +1,13 @@
 {
   "name": "collab",
   "version": "0.0.1",
-  "main": "src/index.js",
+  "main": "src/src.js",
   "repository": "git@github.com:FrancescoMaca/Collab.git",
   "author": "MCorange99 <gvidasjuknevicius2@gmail.com> and FrancescoMaca <>",
   "license": "GPL-3.0",
   "scripts": {
-    "start": "node src/index.js",
-    "start:Dev": "npx nodemon src/index.js"
+    "start": "node src/src.js",
+    "start:Dev": "npx nodemon src/src.js"
   },
   "dependencies": {
     "cors": "^2.8.5",

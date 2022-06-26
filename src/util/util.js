@@ -1,5 +1,5 @@
-const GuildSchema = require("@model/GuildSchema");
-const UserSchema = require("@model/UserSchema");
+// const GuildSchema = require("@model/GuildSchema");
+const UserSchema = require("@models/UserSchema");
 module.exports = class Util extends null {
     static generateID (type) {
 

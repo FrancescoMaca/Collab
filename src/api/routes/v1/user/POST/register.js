@@ -1,8 +1,8 @@
 const Util = require("@util/util");
 const { color } = require("@util/util")
-const Validation = require("../../../../util/validation");
+const Validation = require("@util/validation");
 const pkgValidator = require("validator");
-const UserSchema = require("../../../../models/UserSchema");
+const UserSchema = require("@models/UserSchema");
 const router = require("express").Router();
 
 router.post("/", async (req, res) => {

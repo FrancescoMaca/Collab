@@ -1,5 +1,6 @@
-const { API } = require("./api/api");
-const { WebSocket } = require("./ws/ws");
+require('module-alias/register');
+const { API } = require("./api");
+const { WebSocket } = require("./ws");
 const mongoose = require("mongoose");
 const config = require("../config.json")
 
